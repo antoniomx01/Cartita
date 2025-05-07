@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Carta para Ti</title>
+  <link href="https://fonts.googleapis.com/css2?family=Libre+Baskerville&display=swap" rel="stylesheet">
+  <style>
+    body {
+      margin: 0;
+      padding: 0;
+      font-family: 'Libre Baskerville', serif;
+      background-color: #f9f9f9;
+      color: #333;
+    }
+    .cover {
+      text-align: center;
+      padding: 30px 20px;
+    }
+    .cover img {
+      width: 100%;
+      max-width: 280px;
+      border-radius: 20px;
+      object-fit: cover;
+      object-position: center;
+      cursor: pointer;
+    }
+    .cover h1 {
+      font-size: 22px;
+      margin-top: 20px;
+    }
+    .cover button {
+      margin-top: 20px;
+      padding: 12px 24px;
+      font-size: 16px;
+      background-color: #f48fb1;
+      color: white;
+      border: none;
+      border-radius: 6px;
+      cursor: pointer;
+    }
+    .letter-container {
+      display: none;
+      max-width: 90%;
+      margin: 20px auto;
+      padding: 20px;
+      background-color: #fff;
+      border-radius: 10px;
+      box-shadow: 0 0 10px rgba(0,0,0,0.05);
+      line-height: 1.6;
+      font-size: 16px;
+    }
+    .note {
+      font-size: 14px;
+      color: #555;
+      margin-top: 30px;
+      text-align: center;
+    }
+    .surprise-photo {
+      display: none;
+      text-align: center;
+      margin: 30px auto;
+      padding: 0 20px;
+    }
+    .surprise-photo img {
+      width: 100%;
+      max-width: 280px;
+      border-radius: 15px;
+      box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+    }
+    .surprise-photo div {
+      margin-top: 20px;
+      font-size: 15px;
+      color: #444;
+      text-align: center;
+    }
+  </style>
+</head>
+<body>
+
+  <div class="cover">
+    <img src="https://i.imgur.com/56o7qzE.jpeg" alt="Maple el Shih Tzu" onclick="document.querySelector('.surprise-photo').style.display='block';">
+    <h1>Una carta escrita con mucho cariño, para ti.</h1>
+    <button onclick="document.querySelector('.letter-container').style.display='block'; this.style.display='none';">Abrir Carta</button>
+  </div>
+
+  <div class="letter-container">
+    <p>“Las cartas son como ir a buscar a alguien a su alma”, escribió Julio Cortázar. Al leer la tuya, sentí como si alguien hubiera venido a buscar la mía, después de tanto tiempo.</p>
+    <p>Hoy te escribo para que me permitas hacer lo mismo: conocerte, acompañarte, compartir… y también que tú me conozcas a mí.</p>
+    <p>Durante mucho tiempo me he sentido solo, incluso estando rodeado de amigos, pareja o familia. Muchas veces me he sentido incomprendido y he cargado con mucho dolor, aunque no siempre haya sabido cómo expresarlo.</p>
+    <p>Pero como Job, he tratado de sostenerme en la fe, confiando en que después de la prueba vendrá la calma. Que Dios, en su momento, me dará lo que merezco. No me refiero a cosas materiales, sino a paz, sentido, compañía verdadera.</p>
+    <p>A veces me pregunto si ya estoy viviendo ese momento. Justo cuando sentí que me había rendido, que no quería intentar nada más con nadie, que necesitaba enfocarme solo en mí, en estar con Dios… apareciste tú.</p>
+    <p>Y te soy muy sincero: tengo miedo. Miedo porque no quiero volver a sufrir. Pero también tengo muchas ganas de volver a mostrar quién soy realmente, de que alguien me valore, me entienda y me quiera como yo también sé hacerlo.</p>
+    <p>Me cuesta mucho abrirme, mostrar mi parte más vulnerable. Y hoy lo estoy haciendo contigo. Estoy confiando en ti y entregándote algo muy valioso para mí: mi vulnerabilidad.</p>
+    <p>De verdad, no sabes cuánto siento por ti, lo bien que me haces sentir. Me haces sentir querido, acompañado.</p>
+    <p>Valoro muchísimo cosas que tal vez tú veas como pequeñas: cuando me llevaste medicamento porque me sentía mal, cuando fuiste a verme al depa solo porque sabías que estaba estresado, o simplemente cuando me haces saber que estás para mí.</p>
+    <p>Esas cosas significan mucho. Eso es lo que siempre he querido sentir, lo que tanto le pedí a Dios. Él me dio la fuerza para seguir… pero también me dio la oportunidad de volver a querer. De quererte a ti.</p>
+    <p>Llegaste en un momento muy importante de mi vida, en medio de muchas dudas e incertidumbres. Y aun con todo eso, estar contigo hace que todo sea más llevadero. Me haces sentir apoyado, escuchado, querido.</p>
+    <p>Gracias por ser quien eres conmigo. Por permitirme conocerte y dejarte conocerme. Por ser empalagosa (a mí me encanta que seas así). Nunca quiero que sientas que me hartas por ser como eres.</p>
+    <p>Tú también mereces ser amada, apoyada y comprendida. Eres una persona con un corazón y sentimientos tan bonitos, unos ojos que me encantan mucho como me ven. Quiero que sepas que me encantaría ser ese hombro donde puedas desahogarte, ese abrazo y ese beso que te hagan sentir que, a pesar de todo, también mereces amor y cariño. Que hay alguien que te escucha, que te valora por todo lo que eres y que está intentando comprenderte, y también dándote todo el amor que mereces. Te quiero mucho.</p>
+    <p>– Luis</p>
+
+    <div class="note">
+      <p>Si llegaste al final de esta carta te tengo una mini sorpresa, no es la gran cosa, solo me pareció chistoso hacerlo. Pero tienes que tocar a Maple y regresar al final de la carta. Te quieroooo.</p>
+    </div>
+  </div>
+
+  <div class="surprise-photo">
+    <img src="https://i.imgur.com/MH2wmfv.jpeg" alt="Foto sorpresa">
+    <div>
+      <p><strong>Quiero compartirte una canción</strong>, la verdad a mí me gusta mucho la banda, es como una pequeña parte que me gustaría que conocieras de mí.</p>
+      <p>También me gusta el significado de la canción, la cual es:</p>
+      <p><em>Arctic Monkeys - No. 1 Party Anthem</em></p>
+      <p>Trata sobre alguien que está en una fiesta, rodeado de gente y ruido, pero lo único que quiere realmente es conectar con una persona especial. Aunque todo parece superficial a su alrededor, en el fondo está buscando algo sincero, alguien que lo vea de verdad.</p>
+    </div>
+  </div>
+
+</body>
+</html>
